@@ -1,0 +1,28 @@
+{
+  "name": "average-color",
+  "version": "1.0.0",
+  "description": "Returns the average color from a list of HSL arrays",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rileyjshaw/average-color.git"
+  },
+  "keywords": [
+    "MIDI",
+    "piano",
+    "keyboard",
+    "music",
+    "audio",
+    "control",
+    "rhythm"
+  ],
+  "author": "rileyjshaw <i@rileyjshaw.com> (http://rileyjshaw.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rileyjshaw/average-color/issues"
+  },
+  "homepage": "https://github.com/rileyjshaw/average-color#readme"
+}
