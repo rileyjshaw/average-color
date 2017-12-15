@@ -29,7 +29,7 @@ const Y = 1;
  *
  * @return {[H, S, L]}            The average color.
  */
-function averageColor (...colors) {
+export default function averageColor (...colors) {
 	const result = averageColorNormalized(...colors);
 	return [result[0] * 360, result[1] * 100, result[2] * 100];
 }
@@ -38,7 +38,7 @@ function averageColor (...colors) {
 /**
  * Same as above, but with output ranges normalized to [0, 1].
  */
-function averageColorNormalized (...colors) {
+export function averageColorNormalized (...colors) {
 	// If a single colors array was provided as opposed to separate arguments
 	// for each color, break it out.
 	if (colors.length === 1 && Array.isArray(colors[0][0])) colors = colors[0];
